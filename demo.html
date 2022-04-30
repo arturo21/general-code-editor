@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>DEMO Tortellini</title>
+		<style type="text/css">
+	
+        * {
+            box-sizing: border-box
+        }
+        html, body {
+            width: 100%;
+            overflow: hidden;
+        }
+        .glider-contain {
+            width: 90%;
+            max-width: 997px;
+            margin: 0 auto;
+        }
+        .glider-slide {
+            min-height: 150px;
+        }
+        .glider-slide img {
+            width: 100%;
+        }
+    
+	</style>
+	</head>
+	<body>
+		<div id="editor"></div>
+		<script src="https://cdn.underdevelopment.work/generaljs/general.min.js"></script>
+		<script src="dist/gcodeeditor.min.js"></script>
+		<script type="text/javascript">
+			genrl.run(function(){
+				g("#editor").css({
+					height:"100%",
+					width:"100%",
+					background:"#333",
+					color:"#FFF"
+				});
+			}());
+		</script>
+	</body>
+</html>
