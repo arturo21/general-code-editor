@@ -1,15 +1,15 @@
 # general-code-editor
 Code Editor for General.JS
 
-##How to use it
+## How to use it
 
-###Create an html div called editor
+### Create an html div called editor
 
 ```html
 	<div id="editor"></div>
 ```
 
-###Style your div
+### Style your div
 ```javascript
 	g("#editor").css({
 		height:"100%",
